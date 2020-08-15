@@ -12,6 +12,15 @@
         img {
             max-width: 100%;
             vertical-align: top;
+            /* display: none; */
+        }
+        img#responsive {
+            display: none;
+        }
+        @media screen and (max-width: 768px) {
+            img#responsive {
+                display: block;
+            }
         }
     </style>
 </head>
@@ -20,5 +29,6 @@
     <img src="/imagenes/hero_51f6ca4a-043f-4384-bf2d-0276833261fc.jpg" alt="">
     <img src="/imagenes/acustica_395abf3a-d46e-4f19-a9cc-ddee140e6597.jpg" alt="">
     <img src="/imagenes/clasica_0663a6aa-2c83-4435-8530-357480d5a950.jpg" alt="">
+    <img src="/imagenes/invie-responsive_9eaee446-2d8d-4cfb-92e1-c4038311af4a.png" alt="" id="responsive">
 </body>
 </html>
